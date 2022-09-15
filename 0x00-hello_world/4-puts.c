@@ -1,6 +1,7 @@
 #include <stdio.h>
 /**
  * Betty Code
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
