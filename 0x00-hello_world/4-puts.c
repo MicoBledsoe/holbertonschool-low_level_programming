@@ -1,8 +1,6 @@
 #include <stdio.h>
-
 /**
  * Betty Code
- * Betty
  */
 int main(void)
 {
