@@ -9,12 +9,15 @@
  */
 int main(void)
 {
-		char var[24] = "abcdfghijklmnoprstuvwxyz";
-		int i;
+	int i;
 
-		for ( i=0; i < 24; i++);
+	for (i = 'a'; i < ='z'; i++)
+	{
+		if (i != 'e' && i != 'q')
 		{
-			putchar(var[i]);
+			putchar(i);
 		}
-			putchar('\n');
-			return (0);i
+	}
+	putchar('\n');
+	return (0);
+}
