@@ -7,7 +7,7 @@
 * Return: Always 0 (Success)
 */
 int main(void)
-{       
+{
 char alp[16] = "0123456789abcdef";
 int y;
 
