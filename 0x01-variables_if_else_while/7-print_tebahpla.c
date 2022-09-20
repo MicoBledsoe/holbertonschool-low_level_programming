@@ -16,6 +16,3 @@ putchar(alpha[i]);
 putchar('\n');
 return (0);
 }
-
-Message @LW068
-
