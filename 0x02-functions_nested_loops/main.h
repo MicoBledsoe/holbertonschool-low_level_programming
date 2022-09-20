@@ -5,7 +5,7 @@
 *
 * Return: Always 0 (Success)
 */
-int main(void)
+int _putchar(char c)
 {
-fwrite("_putchar");
-return (0);
+return (write(1, &c, 1));
+}
