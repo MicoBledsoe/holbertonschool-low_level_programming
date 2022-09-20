@@ -1,19 +1,21 @@
 #include<stdio.h>
-#include<time.h>
 #include<string.h>
 
 /**
-* main - TEXT
+* main - mirrorT
 *
 * Return: Always 0 (Success)
 */
 int main(void)
-{       
-char alph[26] = "zyxwvutsrqponmlkjihgfedcba";
-int x;
+{
+char alpha[26] = "zyxwvutsrqponmlkjihgfedcba";
+int i;
 
-for (x = 0; x < 26; x++)
-putchar(alph[x]);
+for (i = 0; i < 26; i++)
+putchar(alpha[i]);
 putchar('\n');
 return (0);
 }
+
+Message @LW068
+
