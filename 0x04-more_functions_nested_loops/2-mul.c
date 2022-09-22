@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * int mul(int a, int b) - upper case characters
+ * mul - upper case characters
  *
  * @a: This has letters
  * @b: random character
