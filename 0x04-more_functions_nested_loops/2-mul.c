@@ -1,14 +1,14 @@
 #include "main.h"
 
 /**
- * mul - upper case characters
- *
- * @a: This has letters
- * @b: random character
- * Return: Always 0 (Success)
- *
- */
-
+* mul - multiplies two intergers.
+*
+* @a: random interger.
+*
+* @b: random interger.
+*
+* Return: 0 if success.
+*/
 int mul(int a, int b)
 {
 return (a * b);
