@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * _isupper upper case characters
+ * _isupper - upper case characters
  *
  * @c: This has letters
  * Return: Always 0 (Success)
