@@ -3,7 +3,8 @@
 /**
  * int mul(int a, int b) - upper case characters
  *
- * @c: This has letters
+ * @a: This has letters
+ * @b: random character
  * Return: Always 0 (Success)
  *
  */
