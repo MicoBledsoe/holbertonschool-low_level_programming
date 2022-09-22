@@ -1,10 +1,21 @@
-#ifndef _MAIN_H
-#define _MAIN_H
-#include "main.h"
+int _putchar(int);
 
-int main(void);
-/** Prototypes for loops */
 int _isupper(int c);
-int _isdigit(int c)i;
+
+int _isdigit(int c);
+
 int mul(int a, int b);
-#endif
+
+void print_numbers(void);
+
+void print_most_numbers(void);
+
+void more_numbers(void);
+
+void print_line(int n);
+
+void print_diagonal(int n);
+
+void print_square(int size);
+
+void print_triangle(int size);
