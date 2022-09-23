@@ -1,9 +1,9 @@
 #include "main.h"
 
 /**
- * print_line - upper case characters
+ * print_line - draws straight line
  *
- * Return: Always 0 (Success)
+ * Return: no return
  *
  */
 void print_line(int n)
