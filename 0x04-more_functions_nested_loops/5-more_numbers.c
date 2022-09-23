@@ -1,21 +1,21 @@
 #include "main.h"
 
 /**
- * void more_numbers - upper case characters
- *
- * Return: Always 0 (Success)
- *
- */
+* more_numbers - Print 0 to 14 ten times.
+*
+* Return: No return.
+*/
 void more_numbers(void)
 {
 int x, y;
-for (x = '0'; x <= '14', x++)
-}
-for (y = '0'; y < '15', y+=)
+
+for (x = 0; x < 10; x++)
 {
-if (y >= 14)
-_putchar((y / 14) + '0');
-_putchar((y % 14) + '0');
+for (y = 0; y < 15; y++)
+{
+if (y >= 10)
+_putchar((y / 10) + 48);
+_putchar((y % 10) + 48);
 }
 _putchar('\n');
 }
