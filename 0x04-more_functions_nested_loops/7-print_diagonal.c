@@ -8,18 +8,17 @@
 * Return: no return.
 */
 void print_diagonal(int n)
-void print_diagonal(int n)
 {
-int p, x;
+int i, j;
 
-for (p = 0; i < n; p++)
+for (i = 0; i < n; i++)
 {
-for (x = 0; x < p; x++)
+for (j = 0; j < i; j++)
 {
 _putchar(' ');
 }
 _putchar(92);
-if (p < (n - 1))
+if (i < (n - 1))
 _putchar('\n');
 }
 _putchar('\n');
