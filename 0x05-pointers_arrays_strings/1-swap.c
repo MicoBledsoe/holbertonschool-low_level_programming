@@ -3,13 +3,13 @@
 
 /**
  * swap_int - swap
- * @a: mico
- * @b: mico
+ * @a: first
+ * @b: second
  * Return: none
  */
 void swap_int(int *a, int *b)
 {
-int y;
+int mico = *a;
 *a = *b;
 *b = *a;
 }
