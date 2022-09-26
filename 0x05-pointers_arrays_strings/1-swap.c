@@ -10,7 +10,7 @@
 void swap_int(int *a, int *b)
 {
 int mico;
-mico = a;
-a = b;
-mico = b;
+*a = mico
+*b = *a;
+*b = mico;
 }
