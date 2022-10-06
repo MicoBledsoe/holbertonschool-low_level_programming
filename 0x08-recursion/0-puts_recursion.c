@@ -2,10 +2,8 @@
 
 /**
  * _puts_recursion - prints a string, followed by a new line.
- * @s: string printingt
+ * @s: string that prints
  */
-
-void _puts_recursion(char *s)
 void _puts_recursion(char *s)
 {
 	if (*s == '\0')
