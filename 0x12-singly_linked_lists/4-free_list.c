@@ -5,15 +5,15 @@
  * @head: sll thats about to end
  * Return: vel'koz type
  */
-void free_list(list_t *tail)
+void free_list(list_t *head)
 {
 	list_t *targetCycler;
 
-	while (tail)
+	while (head)
 	{
-		targetCycler = tail->next;
-		free(tail->str);
-		free(tail);
+		targetCycler = head->next;
+		free(head->str);
+		free(head);
 		head = targetCycler;
 	}
 }
